@@ -46,14 +46,14 @@ function renderChessBoard(array){
                 
             if ($tile.innerText!=''){
                 $tile.classList.add('tile-black')
-                $tile.style.backgroundColor='#939393'
+                $tile.style.backgroundColor='#ddc5ab'
             }
 
             tilesBrown.forEach(e=>{
                 if ($tile.id == e){
                     $tile.classList.add('tile-black')
-                    $tile.innerText='-'
-                    $tile.style.backgroundColor='#939393'
+                    $tile.innerText='.'
+                    $tile.style.backgroundColor='#ddc5ab'
                 }
             })
 
